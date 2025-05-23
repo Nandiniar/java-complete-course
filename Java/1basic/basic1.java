@@ -1,6 +1,6 @@
 public class basic1{ //here public,class is a keyword or reserved words and basic1 is class name
     public static void main(String args[]){  //main is the name of function 
-        System.out.println("Hello world");//printn is from printstream class
+        System.out.println("Hello world");//println is from printstream class
     }
 }
 
