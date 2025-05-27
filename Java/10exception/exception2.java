@@ -10,11 +10,18 @@
 
 // throws is used to declare the exception class , using throws we can declare as many exceptions
 // just like scanner , we can also read the data with the help of BUfferedReader
+// readLine() throws IO Exception
+// parseInt() throws NumberFormatException
+
+// throws declare an exception class
+// throws can declare many exception
+
 import java.io.*;
 public class exception2 {
     public static void main(String[] args){
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Please Enter name and age");
+    
         try{
                        String name=br.readLine();                 // readLine reads line of text
                        int age=Integer.parseInt(br.readLine());

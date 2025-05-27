@@ -1,7 +1,7 @@
 
 //lang.throwable throwable is super class of all exceptional class
 // throwable has 2 direct children - error , exception
-// error are not recoverable  error is unchecked exception means they are not checked by compilet
+// error are not recoverable  error is unchecked exception means they are not checked by compiler
 // exception are recoverable - 
 // exception is something which when happen disrupt the normal flow
 // exception like IOException,SQLexeption,and runtime exception(unchecked expression) like arithmetic expression, nullpointexpression, numberformatexpression
