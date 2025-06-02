@@ -25,11 +25,12 @@
 import  java.io.*;
 public class iostream1 {
     public static void main(String[] args){
-        File f=new File("first.txt"); // yeh file bane hai java.io se  
+     //   File f=new File("first.txt"); // yeh file bane hai java.io se  
         // iss wale command se humare file banege and agar koi phale se he bane hue hoge toh usme he rewrite hoke waise hoge
         try{
-    FileWriter fw=new FileWriter(f);
-    fw.write("Java is an OOP Language\n");
+    FileWriter fw=new FileWriter("f.txt",true); // hum directly yeh bhi likh sakte hai file f=new File() likhne se acha
+    // here true means appending is allowed , by default its value is false
+    fw.write("nnn Java is an OOP Language\n");
     fw.write("Java is a secure and dynamic \n Java is distributed and robust");
 
 
